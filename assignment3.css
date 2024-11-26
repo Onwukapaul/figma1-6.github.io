@@ -1,0 +1,85 @@
+
+
+@media screen and (max-width: 1024px) {
+    .container{
+        border: 15px whitesmoke solid;
+        width: max-content;
+        background-color:rgb(168, 168, 234);
+        border-radius: 5px;
+    }
+    h4{
+        background-color: rgba(255, 243, 178, 0.923);
+        width: 12%;
+        border-top-right-radius: 20%;
+        border-end-end-radius: 20%;
+        margin-left: 12rem;
+        margin-top: 3rem;
+        font-size: 80%;
+        position: absolute;
+        padding: 3px;
+    }
+    
+    .sub-container{
+        background-color: white;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 4%;
+        margin-bottom: 4%;
+        border-radius: 7px;
+    }
+    .pic{
+        width: 100%;
+    }
+    img{
+        width: 100%;
+        height: 15rem;
+    }
+    .text{
+        width: fit-content;
+        padding: 20px;
+        font-size: 80%;
+    }
+    
+   
+  }
+
+.container{
+    border: 15px whitesmoke solid;
+    width: 60%;
+    background-color:rgb(168, 168, 234);
+    margin-top: 5%;
+    margin-left: 20%;
+    border-radius: 5px;
+}
+h4{
+    background-color: rgba(255, 243, 178, 0.923);
+    width: 12%;
+    border-top-right-radius: 20%;
+    border-end-end-radius: 20%;
+    margin-left: 12rem;
+    margin-top: 3rem;
+    font-size: 80%;
+    position: absolute;
+    padding: 3px;
+}
+
+.sub-container{
+    background-color: white;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    border-radius: 7px;
+}
+.pic{
+    width: 100%;
+}
+img{
+    width: 100%;
+    height: 15rem;
+}
+.text{
+    width: fit-content;
+    padding: 20px;
+    font-size: 80%;
+}

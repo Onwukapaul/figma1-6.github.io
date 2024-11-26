@@ -1,0 +1,84 @@
+
+.container{
+    width: 70%;
+    display: flex;
+    background-color: rgb(218, 215, 215);
+    border: rgba(128, 128, 128, 0.486) 10px solid;
+    padding: 1%;
+    margin-left: 12%;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+div{
+
+    background-color: white;
+  
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 60%;
+    margin-right: 3%;
+
+    
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 40%;
+    margin: 2px;
+}
+.one{
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.276);
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+
+}
+.two, .four, .seven{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: gray;
+    height: 30px;
+    border-style: none;
+}
+
+.three, .eight{
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.276);
+    border-radius: 5px;
+    border-style: none;
+
+}
+.three-inner1, .eight-1{
+    border-style: none;
+    width: 70%;
+    font-size: 90%;
+    height: 5%;
+    padding: 10px;
+    background-color: rgb(255, 225, 0);
+    border-radius: 3px;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding-bottom: 4%;
+    box-shadow: 5px 5px rgba(139, 139, 139, 0.567);
+}
+.three-inner2, .eight-2{
+    padding: 7px;
+    margin-left: 10px;
+    
+}
+.five{
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.276);
+    border-radius: 5px;
+    border-style: none;
+    padding: 40px;
+}
+.six{
+    box-shadow: 10px 10px rgba(128, 128, 128, 0.276);
+    border-radius: 5px;
+    border-style: none;
+    padding: 5px;
+}
+

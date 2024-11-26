@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(233, 251, 245);
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+}
+.left{
+    
+    padding: 30px;
+    margin-left: 7%;
+    margin-top: 15%;
+    width: 500px
+   
+
+}
+img{
+    width: 70px;
+}
+.right{
+    padding: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 50%;
+
+}
+form{
+    background-color: white;
+    width: fit-content;
+    padding: 20px;
+    font-size: 20px;
+    box-shadow: 15px 15px rgba(168, 161, 161, 0.238);
+    border-radius: 5px;
+    
+   
+}
+
+.form-container{
+    display: flex;
+}
+input{
+    padding: 10px 15px;
+    box-shadow: 2px 2px rgb(184, 249, 249);
+    border-style: none;
+    background-color: aliceblue;
+
+  
+}
+select{
+    padding: 9px 55px; 
+    box-shadow: 2px 2px rgb(184, 249, 249);
+    border-style: none;
+    background-color: aliceblue;
+}
+   
+label{
+    padding: 15px 0;
+}
+#dob{
+    padding: 7px 45px; 
+
+}
+.west{
+    padding: 10px;
+
+}
+.east{
+    padding: 10px;
+}
+.south{
+    padding: 10px;
+    
+}
+#activity{
+    padding: 10px 170px; 
+}
+#password{
+    padding: 10px 130px; 
+}
+button{
+    padding: 15px 190px;
+    margin-left: 10px;
+    background-color: rgba(0, 255, 225, 0.781);
+    border-radius: 5px;
+    border-style: none;
+}
+
+@media screen and (max-width: 653px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .form-container{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    #activity{
+        padding: 10px 55px; 
+    }
+    #password{
+        padding: 10px 18px; 
+    }
+    button{
+        padding: 15px 80px;
+        margin-left: 10px;
+        background-color: rgba(0, 255, 225, 0.781);
+        border-radius: 5px;
+        border-style: none;
+    }
+    .left{
+    
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 10%;
+        margin-top: 10%;
+        width: 200px;
+    }
+    .right{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        width: 50%;
+    
+    }
+    
+
+}

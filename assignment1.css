@@ -1,0 +1,81 @@
+
+        .container{
+           
+            padding: 50px;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 10%;
+            background-color: rgb(2, 0, 0);
+            border: rgb(204, 204, 204) 5px solid;
+            color: white;
+            border-radius: 5px;   
+        }
+        .header{
+            
+            background-color: rgb(230, 20, 142);
+            font-size: 1.1rem;
+            font-family: serif;
+            color: black;
+            padding: 10px;
+            position: fixed;
+            margin:1.5% 10px;
+            border-radius: 7px;
+            z-index: 1;
+        }
+        .text{
+            background-color: white;
+            color:black;
+            padding-top: 35px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-bottom: 15px;
+            margin-top: 3%;
+            margin-right: 20%;
+            border-radius: 7px;
+            position: relative;
+            z-index: 0;
+        }
+
+        @media screen and (min-width: 1024px){
+            .container{
+            box-sizing: border-box;
+            padding: 60px;
+            margin-left: 25%;
+            margin-right: 25%;
+            margin-top: 10%;
+            background-color: rgb(2, 0, 0);
+            border: rgb(204, 204, 204) 10px solid;
+            color: white;
+            border-radius: 5px;  
+            } 
+
+            .header{
+            background-color: rgb(230, 20, 142);
+            font-size: 1.5rem;
+            font-family: serif;
+            color: black;
+            padding: 12px;
+            position: absolute;
+            margin-left: 7%;
+            border-radius: 7px;
+            z-index: 1;
+        }
+         .text{
+            background-color: white;
+            color:black;
+            padding-top: 45px;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-bottom: 15px;
+            margin-top: 5%;
+            margin-right: 30%;
+            margin-left: 10%;
+            margin-bottom: 20px;
+            border-radius: 7px;
+            position: relative;
+            z-index: 0;
+        }
+            
+        }
+    
+  
